@@ -55,9 +55,9 @@ main:
 
 	harmonic_average:
 		addi $t0, $zero, 0
-		addi $t3, $zero, 1
 		ldc1 $f8, one
 		
+		sll $zero, $zero, 0
 		sll $zero, $zero, 0
 		
 		while_harmonic:
