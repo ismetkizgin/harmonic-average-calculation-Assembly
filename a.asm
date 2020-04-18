@@ -27,9 +27,7 @@ main:
 
 	harmonic_average:
 		addi $t0, $zero, 0
-		addi $t3, $zero, 1
 		ldc1 $f8, one
-		
 		
 		while_harmonic:
 			beq $t0, 40, calculation
